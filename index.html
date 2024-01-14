@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mi nombre" />
+    <meta name="description" content="Una descripcion del proyecto" />
+    <!-- Biblioteca de íconos Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Archivo reset Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Archivo de estilos -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Profile Card</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="card">
+        <div class="card_header">
+          <img
+            src="./images/logo_perfil.png"
+            alt="img_perfil"
+            class="card_image"
+          />
+        </div>
+
+        <div class="card_body">
+          <h1 class="card_title">David Hernandez</h1>
+          <span class="card_tag">Tlaxcala, México</span>
+          <p class="card_copy">
+            Ingeniero en Tecnologías de la Información y Comunicación con
+            experiencia en desarrollo de software mediante el uso de tecnologías
+            y herramientas que facilitan el mantenimiento de las mismas.
+          </p>
+        </div>
+
+        <section class="card_footer">
+            <ul class="list"> 
+                <li class="list_item"><a href="#" class="list--fb"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li class="list_item"><a href="#" class="list--ig"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="list_item"><a href="#" class="list--li"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>
