@@ -1,6 +1,6 @@
 # Tarjeta de Presentación
 ## Captura de pantalla
-![Captura de pantalla del la tarjeta de presentación](captura.png)
+![Captura de pantalla del la tarjeta de presentación](Captura.png)
 
 
 ## Uso
